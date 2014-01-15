@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="product" type="item"/>
+
+  <xs:complexType name="item">
+    <xs:sequence>
+      <xs:element name="date" type="xs:string"/>
+      <xs:element name="mode" type="xs:string"/>
+      <xs:element name="unit" type="xs:string"/>
+      <xs:element name="current" type="xs:string"/>
+      <xs:element name="interactive" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

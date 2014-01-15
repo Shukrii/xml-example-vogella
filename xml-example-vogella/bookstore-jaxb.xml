@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:bookstore xmlns:ns2="at.htl.xml.jaxb.model">
+    <bookList>
+        <book publisher="Harpercollins">
+            <title>The Game</title>
+            <isbn>978-0060554736</isbn>
+            <yearOfPublication>1990</yearOfPublication>
+            <authorList>
+                <author>
+                    <name>Neil2 Strauss2</name>
+                    <dateOfBirth>17.03.1952</dateOfBirth>
+                </author>
+                <author>
+                    <name>Neil Strauss</name>
+                    <dateOfBirth>17.03.1956</dateOfBirth>
+                </author>
+            </authorList>
+        </book>
+        <book publisher="Dumont Buchverlag">
+            <author>
+                <name>Charlotte Roche</name>
+                <dateOfBirth>11.01.1976</dateOfBirth>
+            </author>
+            <title>Feuchtgebiete</title>
+            <isbn>978-3832180577</isbn>
+            <yearOfPublication>2010</yearOfPublication>
+            <authorList>
+                <author>
+                    <name>Charlotte Roche</name>
+                    <dateOfBirth>11.01.1976</dateOfBirth>
+                </author>
+            </authorList>
+        </book>
+    </bookList>
+    <location>Frankfurt Airport</location>
+    <name>Fraport Bookstore</name>
+</ns2:bookstore>
